@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    margin: 5px;
+}
+header{
+    background-color: rgb(143, 241, 209);
+    width: 100%;
+    margin: 0;
+    display:block;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+h1{
+    text-transform: uppercase;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 5px;
+    color:rgb(3, 3, 122);
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(122, 122, 135);
+    width: 100%;
+    padding:10px 0;
+    height: 100%;
+}
+
+nav li {
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(205, 218, 211);
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: rgb(248, 248, 255);
+    color: rgb(3, 31, 124);
+    border-radius: 20px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+}
+
+.text{
+    background-color: aqua;
+    height:fit-content;
+    border-radius: 4px;
+    width: 100%;
+
+}
+.container .jj{
+    background-color: rgb(0, 42, 255);
+    color: white;
+    font-size: 1.5em;
+}
+.history{
+    color:aqua;
+}
+
+.text p{
+    color:black;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    min-height: 100vh;
+    padding: 20px;
+}
+input{
+    font-size: 1.2em;
+    border-radius: 5px;
+    background-color: rgb(255, 254, 252);
+    border: 1px solid rgb(189, 189, 189);
+    width: 200px;
+    margin:0;
+    padding: 10px;
+    padding-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr{
+    border: 0.5px solid rgb(189, 189, 189);
+    width: 100%;
+}
+input:focus{
+    outline: 2px solid rgb(9, 234, 17);
+    color: rgb(0, 0, 0);
+    background-color: rgb(249, 252, 255);
+}
+label{
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+.jj{
+    margin:10px;
+    padding:20px;
+}
+#header{
+    font-size: 1.2em;
+    color: rgb(3, 3, 81);
+    margin: 20px;
+}
+#left{
+    margin:9px;
+    padding: 10px;
+}
+button{
+    margin: 2%;
+    background-color: hsla(240, 100%, 50%, 0.925);
+    font-size: 1.5em;
+    color: white;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+    padding:8px;
+    min-width: 100px;
+
+}
+#stateh{
+    color: rgb(232, 14, 14);
+    font-size: 1.5em;
+    margin: 10px;
+}
+#history ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#history ul li{
+    background-color: rgb(213, 222, 230);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin:3px;
+}
+button:hover{
+    background-color: rgb(12, 111, 223);
+    transition: 0.3s ease;
+}
+
+.container h3{
+    text-align: center;
+    padding:10px;
+    font-size: 1.2em;
+    color: rgb(243, 41, 6);
+    border-radius: 7px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 2opx;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(0,0,0,0.1);
+}
+.congrats{
+    background-color: rgb(80, 180, 18);
+    color:whitesmoke;
+    border-radius: 5px;
+}
+.congrats h2, .congrats h3{
+    padding:2%;
+}
+.contact p, .contact ul{
+    font-size: 1.5em;
+    margin-left: 3%;
+}
+.contact a {
+    text-decoration: none;
+    font-size: 3em;
+    color: rgb(8, 156, 77);
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+    margin: 4px;
+}
+.contact a:hover{
+    color: rgb(12, 52, 186);
+}
